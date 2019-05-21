@@ -1,4 +1,4 @@
-[ethereumjs-common](../README.md) > [chainsType](../interfaces/chainstype.md)
+[puffscoinjs-common](../README.md) > [chainsType](../interfaces/chainstype.md)
 
 # Interface: chainsType
 
