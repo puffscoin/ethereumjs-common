@@ -1,4 +1,4 @@
-# ethereumjs-common
+# http://puffscoin.leafycauldronapothecary.com/puffwiki/puffscoinjs-user-guide/-common
 
 ## Index
 
