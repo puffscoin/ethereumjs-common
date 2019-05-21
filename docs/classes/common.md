@@ -1,4 +1,4 @@
-[ethereumjs-common](../README.md) > [Common](../classes/common.md)
+[puffscoinjs-common](../README.md) > [Common](../classes/common.md)
 
 # Class: Common
 
