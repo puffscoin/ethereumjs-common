@@ -18,7 +18,7 @@ export default class Common {
 
   /**
    * @constructor
-   * @param chain String ('mainnet') or Number (1) chain
+   * @param chain String ('mainnet') or Number (420) chain
    * @param hardfork String identifier ('byzantium') for hardfork (optional)
    * @param supportedHardforks Limit parameter returns to the given hardforks (optional)
    */
@@ -37,7 +37,7 @@ export default class Common {
 
   /**
    * Sets the chain
-   * @param chain String ('mainnet') or Number (1) chain
+   * @param chain String ('mainnet') or Number (420) chain
    *     representation. Or, a Dictionary of chain parameters for a private network.
    * @returns The dictionary with parameters set as chain
    */
