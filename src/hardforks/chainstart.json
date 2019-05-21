@@ -1,6 +1,6 @@
 {
   "name": "chainstart",
-  "comment": "Start of the Ethereum main chain",
+  "comment": "Start of the PUFFScoin main chain",
   "eip": {
     "url": "",
     "status": ""
