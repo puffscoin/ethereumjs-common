@@ -538,7 +538,7 @@ Sets the chain
 
 | Name  | Type     | Description |
 | ----- | -------- | ----------- |
-| chain | `string` | `number`    | `object` | String ('mainnet') or Number (1) chain representation. Or, a Dictionary of chain parameters for a private network. |
+| chain | `string` | `number`    | `object` | String ('mainnet') or Number (420) chain representation. Or, a Dictionary of chain parameters for a private network. |
 
 **Returns:** `any`
 The dictionary with parameters set as chain
