@@ -1,4 +1,4 @@
-[ethereumjs-common](../README.md) > [genesisStatesType](../interfaces/genesisstatestype.md)
+[puffscoinjs-common](../README.md) > [genesisStatesType](../interfaces/genesisstatestype.md)
 
 # Interface: genesisStatesType
 
@@ -26,7 +26,7 @@
 
 **● names**: _`object`_
 
-_Defined in [types.ts:2](https://github.com/ethereumjs/ethereumjs-common/blob/c779647/src/types.ts#L2)_
+_Defined in [types.ts:2](https://github.com/puffscoinjs/puffscoinjs-common/blob/c779647/src/types.ts#L2)_
 
 #### Type declaration
 
