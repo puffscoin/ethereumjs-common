@@ -1,19 +1,10 @@
-# SYNOPSIS
+# PUFFSCOINJS-COMMON
 
-[![Build Status](https://travis-ci.org/ethereumjs/ethereumjs-common.svg?branch=master)](https://travis-ci.org/ethereumjs/ethereumjs-common)
-[![Coverage Status](https://img.shields.io/coveralls/ethereumjs/ethereumjs-common.svg?style=flat-square)](https://coveralls.io/r/ethereumjs/ethereumjs-common)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs.svg?style=flat-square)]()
-
-# ETHEREUMJS-COMMON
-
-Resources common to all Ethereum implementations
-
-Succeeds the old [ethereum/common](https://github.com/ethereumjs/common/) library.
+Resources common to all PUFFScoin implementations
 
 # INSTALL
 
-`npm install ethereumjs-common`
+`npm install puffscoinjs-common`
 
 # USAGE
 
@@ -24,7 +15,7 @@ together with a specific `hardfork` provided.
 Here are some simple usage examples:
 
 ```javascript
-const Common = require('ethereumjs-common')
+const Common = require('puffscoinjs-common')
 
 // Instantiate with only the chain
 let c = new Common('ropsten')
@@ -134,22 +125,20 @@ Due to the large file sizes genesis states are not directly included in the `ind
 but have to be accessed directly, e.g.:
 
 ```javascript
-const mainnetGenesisState = require('ethereumjs-common/dist/genesisStates/mainnet')
+const mainnetGenesisState = require('puffscoinjs-common/dist/genesisStates/mainnet')
 ```
 
 Or by accessing dynamically:
 
 ```javascript
-const genesisStates = require('ethereumjs-common/dist/genesisStates')
+const genesisStates = require('puffscoinjs-common/dist/genesisStates')
 const mainnetGenesisState = genesisStates.genesisStateByName('mainnet')
-const mainnetGenesisState = genesisStates.genesisStateById(1) // alternative via network Id
+const mainnetGenesisState = genesisStates.genesisStateById(420) // alternative via network Id
 ```
 
-# EthereumJS
+# PuffscoinJS
 
-See our organizational [documentation](https://ethereumjs.readthedocs.io) for an introduction to `EthereumJS` as well as information on current standards and best practices.
-
-If you want to join for work or do improvements on the libraries have a look at our [contribution guidelines](https://ethereumjs.readthedocs.io/en/latest/contributing.html).
+See our organizational [documentation](http://puffscoin.leafycauldronapothecary.com/puffwiki/puffscoinjs-user-guide/) for an introduction to `PuffscoinJS`.
 
 # LICENSE
 
