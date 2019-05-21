@@ -56,17 +56,17 @@ tape('[Common]: Initialization / Chain params', function(t: tape.Test) {
 
   t.test('Should provide correct access to chain parameters', function(st: tape.Test) {
     const c = new Common('mainnet')
-    let hash = '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3'
+    let hash = '0xb4973da140b05bfffb1cd734ed871f888e71cf563a4218f82a092fc4540f6c03'
     st.equal(c.genesis().hash, hash, 'should return correct genesis hash')
-    st.equal(c.hardforks()[3]['block'], 2463000, 'should return correct hardfork data')
-    st.equal(c.bootstrapNodes()[0].port, 30303, 'should return a bootstrap node array')
+    st.equal(c.hardforks()[3]['block'], 0, 'should return correct hardfork data')
+    st.equal(c.bootstrapNodes()[0].port, 31313, 'should return a bootstrap node array')
 
     st.end()
   })
 
   t.test('Should be able to access data for all chains provided', function(st: tape.Test) {
     const c = new Common('mainnet')
-    let hash = '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3'
+    let hash = '0xb4973da140b05bfffb1cd734ed871f888e71cf563a4218f82a092fc4540f6c03'
     st.equal(c.genesis().hash, hash, 'mainnet')
     c.setChain('ropsten')
     hash = '0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d'
