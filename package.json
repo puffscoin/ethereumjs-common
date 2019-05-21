@@ -1,24 +1,24 @@
 {
-  "name": "ethereumjs-common",
+  "name": "puffscoinjs-common",
   "version": "1.1.0",
-  "description": "Resources common to all Ethereum implementations",
+  "description": "Resources common to all PUFFScoin implementations",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "ethereumjs-config-build",
+    "build": "puffscoinjs-config-build",
     "prepublishOnly": "npm run test && npm run build",
-    "coverage": "ethereumjs-config-coverage",
-    "coveralls": "ethereumjs-config-coveralls",
-    "format": "ethereumjs-config-format",
-    "format:fix": "ethereumjs-config-format-fix",
-    "tslint": "ethereumjs-config-tslint",
-    "tslint:fix": "ethereumjs-config-tslint-fix",
-    "tsc": "ethereumjs-config-tsc",
-    "lint": "ethereumjs-config-lint",
-    "lint:fix": "ethereumjs-config-lint-fix",
+    "coverage": "puffscoinjs-config-coverage",
+    "coveralls": "puffscoinjs-config-coveralls",
+    "format": "puffscoinjs-config-format",
+    "format:fix": "puffscoinjs-config-format-fix",
+    "tslint": "puffscoinjs-config-tslint",
+    "tslint:fix": "puffscoinjs-config-tslint-fix",
+    "tsc": "puffscoinjs-config-tsc",
+    "lint": "puffscoinjs-config-lint",
+    "lint:fix": "puffscoinjs-config-lint-fix",
     "unitTests": "ts-node ./node_modules/tape/bin/tape ./tests/*.ts",
     "test": "npm run lint && npm run unitTests",
     "test:fix": "npm run lint:fix && npm run unitTests",
@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-common.git"
+    "url": "git+https://github.com/puffscoin/puffscoinjs-common.git"
   },
   "keywords": [
-    "ethereum",
-    "ethereumjs",
+    "puffsconi",
+    "puffscoinjs",
     "constants",
     "parameters",
     "genesis",
@@ -45,14 +45,14 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-common/issues"
+    "url": "https://github.com/puffscoin/puffscoinjs-common/issues"
   },
-  "homepage": "https://github.com/ethereumjs-ethereumjs/common",
+  "homepage": "https://github.com/puffscoin-puffscoinjs/common",
   "devDependencies": {
-    "@ethereumjs/config-nyc": "^1.1.0",
-    "@ethereumjs/config-prettier": "^1.1.0",
-    "@ethereumjs/config-tsc": "^1.1.0",
-    "@ethereumjs/config-tslint": "^1.1.0",
+    "@puffscoinjs/config-nyc": "^1.1.0",
+    "@puffscoinjs/config-prettier": "^1.1.0",
+    "@puffscoinjs/config-tsc": "^1.1.0",
+    "@puffscoinjs/config-tslint": "^1.1.0",
     "@types/node": "^10.12.2",
     "@types/tape": "^4.2.33",
     "coveralls": "^3.0.1",
@@ -69,8 +69,8 @@
   },
   "maintainers": [
     {
-      "name": "Holger Drewes",
-      "email": "Holger.Drewes@gmail.com"
+      "name": "Abvhiael Stuart",
+      "email": "abvhiael@leafycauldronapothecary.com"
     }
   ],
   "dependencies": {}
