@@ -1,4 +1,4 @@
-[ethereumjs-common](../README.md) > [hardforkOptions](../interfaces/hardforkoptions.md)
+[puffscoinjs-common](../README.md) > [hardforkOptions](../interfaces/hardforkoptions.md)
 
 # Interface: hardforkOptions
 
