@@ -2,7 +2,7 @@ import { genesisStatesType } from './../types'
 
 const genesisStates: genesisStatesType = {
   names: {
-    '1': 'mainnet',
+    '420': 'mainnet',
     '3': 'ropsten',
     '4': 'rinkeby',
     '42': 'kovan',
