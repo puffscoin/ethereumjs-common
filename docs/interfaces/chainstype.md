@@ -26,7 +26,7 @@
 
 **● names**: _`object`_
 
-_Defined in [types.ts:9](https://github.com/ethereumjs/ethereumjs-common/blob/c779647/src/types.ts#L9)_
+_Defined in [types.ts:9](https://github.com/puffscoin/puffscoinjs-common/blob/c779647/src/types.ts#L9)_
 
 #### Type declaration
 
