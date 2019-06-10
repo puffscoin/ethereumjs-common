@@ -114,7 +114,7 @@ the constructor or the `setChain()` method for the `chain` parameter.
 
 # Bootstrap Nodes
 
-There is no separate config file for bootstrap nodes like in the old `ethereum-common` library.
+There is no separate config file for bootstrap nodes like in the `puffscoin-common` library.
 Instead use the `common.bootstrapNodes()` function to get nodes for a specific chain/network.
 
 # Genesis States
